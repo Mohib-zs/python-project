@@ -1,3 +1,6 @@
+import os
+import logging
+
 greetings = "Hello there"           #Global Variable
 
 
@@ -49,3 +52,7 @@ my_set.remove("Wednesday")
 
 print(my_dictionary)
 print(my_dictionary["Tuesday"])
+
+print(os.name)
+logger = logging.getLogger("MAIN")
+logger.error("Error happened in the app")
